@@ -83,7 +83,7 @@ def fill_with_group_average(df, group, column):
     group the row belongs to.
     The rows are grouped based on the values of another column
 
-    Args:
+    Args:-
         df: A pandas DataFrame object representing the data.
         group: The column to group the rows with
         column: Name of the column to fill
@@ -118,5 +118,5 @@ def get_rows_greater_than_avg(df, column):
 # f1(X1, coef1, X2, coef2, seed1, seed2, seed3, shape1, shape2)
 
 
-
+print("waddduppppppppppp dawg")
 print(f1(np.array([[1,2,3],[4,5,5]]),3,np.array([[7,8],[10,12]]),2,1,2,3,(3,2),(3,2)))
